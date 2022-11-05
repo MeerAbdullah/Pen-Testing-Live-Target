@@ -21,7 +21,7 @@ Vulnerability #1: __________________
 
 Description:
 
-<img src="blue_pentest#1.gif">
+![blue_pentest#1](https://user-images.githubusercontent.com/96878742/200104845-2bab7c50-953d-4e40-8375-3e35ea1641e2.gif)
 
 
 ## Green
@@ -30,7 +30,7 @@ Vulnerability #1: __________________
 
 Description:
 
-<img src="green_pentest#1.gif">
+![green_pentest#1](https://user-images.githubusercontent.com/96878742/200104851-667bcf2f-15f1-4ad1-95b5-ea1c68a1eb70.gif)
 
 
 ## Red
@@ -39,7 +39,7 @@ Vulnerability #1: __________________
 
 Description:
 
-<img src="red_pentest#1.gif">
+![red_pentest#1](https://user-images.githubusercontent.com/96878742/200104861-f33b4054-0178-4a2a-85a2-4c6d89bd6d4c.gif)
 
 
 ## Notes
