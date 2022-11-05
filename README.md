@@ -50,11 +50,18 @@ Description:
 Vulnerability #1: Insecure Direct Object Reference
 
 Description:
-* Eve, the attacker, can first see that there could be a potential IDOR (Insecure Direct Object Reference attack) by traversing through the ID of the webpage at the top.
+* Eve, the attacker, can first see that there could be a potential IDOR (Insecure Direct Object Reference) attack by traversing through the ID of the webpage at the top which represents some salesperson.
+* We see from the salesperson page that we can access up to 9 different salesperson, and this is respresented with their ID 1-9 in the URL of the webpage.
+* We change ID to 2, then 4 and they work as expected.
+* Then, we change the ID to 10 which is beyond tha range, then we access a page that we were not supposed to. id = 11 works as well with the name of the salesman being "Lazy Lazyman".
+* THus, we have traversed the website and displayed an IDOR (Insecure Direct Object Reference) attack by doing so.
+* The gif displaying this is below:
 
 ![red_pentest#1](https://user-images.githubusercontent.com/96878742/200104861-f33b4054-0178-4a2a-85a2-4c6d89bd6d4c.gif)
 
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+Describe any challenges encountered while doing the work.
+
+Some challenges that I faced while doing this challenge was just realizing when to use what type of vulnerability attack. In order to find a vulnerability, you must come to a webpage or look at something with a clear mind and possibly brute force or think of any way possible to break the security of the system or webpage. To approach these problems, you must have an immense amount of creativity backed with the knowledge on all the different vulnerabilities, which is why assignments like this are difficult. Although they are difficult, they are not impossible. Everything is ambiguous at first since there isn't a given hint to tell you where to go when hacking a website, displaying the real life applciation of this assignment. Overall, a challenge I encountered with this assignment was trying to be as creative as possible and think of some way to break the security of this webpage.
