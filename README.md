@@ -17,9 +17,15 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 ## Blue
 
-Vulnerability #1 and #2: SQL Injection (SQLi) and Insecure Direct Object Reference
+Vulnerability #1 and #2: Insecure Direct Object Reference and SQL Injection (SQLi)
 
-Description:
+Description: 
+* Eve, the attacker, can first see that an IDOR vulnerability is shown by switching the id in the URL to some consecutive number. 
+* We can change this ID into some consecutive numner and access another salesman page.
+* After this, we found out that SQLi is a vulnerability within this page/website.
+* Enter the following command for an SQLi: %27%20OR%20SLEEP(5)=0--%27
+* After entering the SQLi command, you will see that it does not say "database query failed", but it rather shows that the SQLi was queried.
+* The result of this shows that the web page sleeps for 5 seconds due to the query. The following is shown in the gif below:
 
 ![blue_pentest#1](https://user-images.githubusercontent.com/96878742/200104845-2bab7c50-953d-4e40-8375-3e35ea1641e2.gif)
 
