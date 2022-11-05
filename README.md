@@ -17,7 +17,7 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability #1 and #2: SQL Injection (SQLi) and Insecure Direct Object Reference
 
 Description:
 
@@ -35,7 +35,7 @@ Description:
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: Insecure Direct Object Reference
 
 Description:
 
