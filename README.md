@@ -35,6 +35,12 @@ Description:
 Vulnerability #1: Cross-Site Scripting (XSS)
 
 Description:
+* Eve, the attacker, can first see that there could be a potential XSS attack through the feedback form in nay of the entries.
+* Eve, aka Meer A., then injects the following XSS script into the feedback form: 
+    * <script>alert('Meer A. found the XSS!');</script> 
+* Then, once you go onto the feedback page, the XSS script that was injected in the feedback form gets ran.
+* The following is shown in the gif below:
+* NOTE: My specific script wasnt shown in the .gif file due to the very long mp4 (would've had to screen record through a lot of gifs) it would've had, so I wouldn't be able post it on github without it saying it is a large file. This is confirmed to work as I manually went through all the XSS scripts injected into the website and saw my own injected XSS script to work. Nevertheless, the .gif to demonstrate this XSS vulnerability is below:
 
 ![green_pentest#1](https://user-images.githubusercontent.com/96878742/200104851-667bcf2f-15f1-4ad1-95b5-ea1c68a1eb70.gif)
 
