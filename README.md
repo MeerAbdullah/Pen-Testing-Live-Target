@@ -17,11 +17,11 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 ## Blue
 
-Vulnerability #1 and #2: Insecure Direct Object Reference and SQL Injection (SQLi)
+Vulnerability #1: SQL Injection (SQLi)
 
 Description: 
-* Eve, the attacker, can first see that an IDOR vulnerability is shown by switching the id in the URL to some consecutive number. 
-* We can change this ID into some consecutive numner and access another salesman page.
+* Eve, the attacker, can first see that a potential IDOR vulnerability is shown by switching the id in the URL to some consecutive number. 
+* We can change this ID into some consecutive number and access another salesman page.
 * After this, we found out that SQLi is a vulnerability within this page/website.
 * Enter the following command for an SQLi: %27%20OR%20SLEEP(5)=0--%27
 * After entering the SQLi command, you will see that it does not say "database query failed", but it rather shows that the SQLi was queried.
