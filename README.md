@@ -50,6 +50,7 @@ Description:
 Vulnerability #1: Insecure Direct Object Reference
 
 Description:
+* Eve, the attacker, can first see that there could be a potential IDOR (Insecure Direct Object Reference attack) by traversing through the ID of the webpage at the top.
 
 ![red_pentest#1](https://user-images.githubusercontent.com/96878742/200104861-f33b4054-0178-4a2a-85a2-4c6d89bd6d4c.gif)
 
