@@ -1,7 +1,5 @@
 # Pen Testing Live Targets
 
-Time spent: **6** hours spent in total
-
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
 The six possible exploits are:
